@@ -9,7 +9,4 @@ create table products (
   fechaCreacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-insert into products(id, nombre, descripcion, precio, stock, fechaCreacion) 
-values ('550e8400-e29b-41d4-a716-446655440000', 'Producto A', 'Descripción de ejemplo', 100.00, 10, NOW());
-
 select * from products;
